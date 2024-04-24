@@ -1,0 +1,28 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Miss Mileidy",
+    "age": 20,
+    "email": "missdy@gamil.com"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users6629339f66f4dc2b1ae4431f HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users6612f29d2dca6beedf925f29 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Mis Mileidy",
+    "age": 21,
+    "email": "missdy@gamil.com"
+}
+
+###
+DELETE http://localhost:9000/api/users662933a166f4dc2b1ae44321 HTTP/1.1
